@@ -1,9 +1,9 @@
 cask "supertodo" do
   arch arm: "-arm64"
 
-  version "0.1.1"
-  sha256 arm:   "f2d305eeff2483934b21562eeac740775cc4009b3dd9f4ded1ad06d0b050e137",
-         intel: "b23b6d5e0a3c11c406822882773e5bb2b4155e3215c37163bf1f8a26ccc3234f"
+  version "0.1.2"
+  sha256 arm:   "b6fc7a6a91b09411461fd530b1184dd90a940ee9753e9cb3b8561aa13218f22c",
+         intel: "7890abf705ec0cfd76837e3437db81f11b29e12f4df9bac331e9179a60ae1260"
 
   url "https://github.com/furst/supertodo/releases/download/v#{version}/supertodo-#{version}#{arch}.dmg"
   name "supertodo"
