@@ -1,9 +1,9 @@
 cask "supertodo" do
   arch arm: "-arm64"
 
-  version "0.1.3"
-  sha256 arm:   "cc4e21310872399b997766feb7ecbb53304988ba2e8eec795258e9b7efbab73c",
-         intel: "2259e1fdebdf4f16a5994f3bbd37a071ac09539f0098b8f2f429c7771acb88e9"
+  version "0.1.4"
+  sha256 arm:   "0786713c41c25ea51101ec9774b9244000fe028be64accf9f0ba106a5e29fd6c",
+         intel: "7c6a4352e60ba7d6a61e549453a70fd1de0c3165fd13322a6215d76eeb8f3a48"
 
   url "https://github.com/fursted/homebrew-tap/releases/download/v#{version}/supertodo-#{version}#{arch}.dmg"
   name "supertodo"
