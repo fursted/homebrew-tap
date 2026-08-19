@@ -1,15 +1,21 @@
 # furst/homebrew-tap
 
-Homebrew tap for [supertodo](https://github.com/furst/supertodo).
+Homebrew tap for [supertodo](https://github.com/fursted/homebrew-tap/releases).
 
 ```sh
-brew install --cask furst/tap/supertodo
+brew install --cask fursted/tap/supertodo
 ```
 
-> **Note:** v0.1.1 is not yet signed/notarized — install it with
-> `brew install --cask --no-quarantine furst/tap/supertodo` to skip the
-> Gatekeeper block. Releases after v0.1.1 are Developer ID signed and
-> notarized and install cleanly without the flag.
+Upgrades arrive with `brew upgrade`. On a Mac where you can't write to
+`/Applications` (e.g. a managed work machine), install into your user
+folder instead:
 
-This cask is updated automatically by supertodo's
-[release workflow](https://github.com/furst/supertodo/blob/main/.github/workflows/release-desktop.yml).
+```sh
+brew install --cask --appdir=~/Applications fursted/tap/supertodo
+```
+
+Builds are Developer ID signed and notarized. DMGs (Apple Silicon + Intel)
+are attached to this repo's [releases](https://github.com/fursted/homebrew-tap/releases)
+if you prefer a direct download.
+
+This cask is updated automatically by supertodo's release workflow.
